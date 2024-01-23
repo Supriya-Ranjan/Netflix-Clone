@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix India - Watch Tv Shows Online, watch Movie Online</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!--nav bar-->
+  <header>
+    <nav class = "navbar">
+      <div class = "navbar_netflix">
+        <img src="img/logo.png" alt="This is the Netflix Logo" class="netflix_logo">
+      </div>
+      <div class ="navbar_nav_items">
+        <div class="nav_item">
+          <div class="dropdown_container">
+            <i class="fa-solid fa-earth-asia" style="color: #fcfcfd;"></i>
+            <select name = "language" id="languageSelect" class="language_drop_down" >
+              <option value="english" selected >English</option>
+              <option value="hindi">Hindi</option>
+            </select>
+          </div>
+        </div>
+         <div class="nav_item">
+          <button class="signin_button">Sign In</button>
+         </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Hero section-->
+  <main>
+    <section class="hero">
+      <div class="hero_bg_img_cont">
+        <img src="img/bg.jpg" alt="Netflix main section background" class="hero_bg_img"/>
+        <div class="hero_bg_overlay"></div>
+        <div class="hero_card">
+          <h1 class="hero_title">
+            Unlimited movies, TV shows and more
+        </h1>
+          <h2 class="hero_subtitle">Watch anywhere. Cancel anytime.</h2>
+          <p class="hero_desc"><nobr>Ready to watch? Enter your email to create or restart your membership.</nobr>
+            <br><br>
+            <nobr><input type="email" placeholder="Email Address" class="email"><button class="get_started">Get Started ></button></nobr>
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Feature Section-->
+    <section class="style-cards">
+        <div class="card-1">
+            <div class="desc-1">
+               <h1>Enjoy on your Tv.</h1>
+               <h3>Watch on smart Tvs, PlayStation, Xbox,<br>
+               Chromecast, Apple TV, Blu-ray players and more.</h3>
+            </div>
+            <img src="img/tv.png" alt="Netflix Tv">
+            <video class="video-1" autoplay="" playsinine="" muted="" loop="" <source src="video/1.m4v" type="video/mp4"></video>
+        </div>
+        <div class="card-2">
+            <div class="desc-2">
+                <img src="img/mobile.jpg" alt="Netflix Mobile">
+                <h1>Download your shows<br> to watch offline.</h1>
+                <h3>Save your favourites easily and always have<br></be> something to watch.</h3>
+            </div>
+        </div>
+        <div class="card-3">
+            <div class="desc-3">
+                <h1>Watch everywhere</h1>
+                <h3>Stream unlimited movies and TV shows on<br> 
+                    your phone, tablet, laptop, and TV.</h3>
+                <img src="img/device-pile-in.png" alt="Device">
+                <video class="video-2" autoplay="" playsinine="" muted="" loop="" <source src="video/2.m4v" type="video/mp4"></video>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <!--Footer section-->
+  <footer class="footer">
+    <p>Questions? Call 000-800-919-1694</p>
+    <div class="footer-cols">
+        <ul>
+            <li>FAQ</li>
+            <li>Investor Relations</li>
+            <li>Privacy</li>
+            <li>Speed Test</li>
+        </ul>
+        <ul>
+            <li>Help Centre</li>
+            <li>Jobs</li>
+            <li>Cookie Preferences</li>
+            <li>Legal Notices</li>
+        </ul>
+        <ul>
+            <li>Account</li>
+            <li>Ways to Watch</li>
+            <li>Corporate Information</li>
+            <li>Only on Netflix</li>
+        </ul>
+        <ul>
+            <li>Media Centre</li>
+            <li>Terms of Use</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+  </footer>
+
+  <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/d82d62be47.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
